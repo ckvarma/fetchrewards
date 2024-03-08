@@ -1,0 +1,51 @@
+Communication with stakeholder
+
+To answer this question, i am sending this message to my Senior Manager who is in constant touch with business stakeholders to shed the light and grab the answers to address the issues. 
+
+Subject: Data qualities and anomalies within Brands, Users, Receipts datasets.
+
+Hello Mark, 
+
+After working on the datasets for a while, I have come up with questions regarding date quality, gathering we needs answers for to go ahead. 
+
+To start, several questions have arisen regarding data completeness, accuracy, and consistency. Some of the questions I have include:
+
+What are the main sources of the data, and how frequently is it updated and regulated?
+Are there any data validation processes in place to ensure data integrity?
+Is there any data loss occurring when migrating between systems, as some data is being captured while half is missing?
+How do we handle missing or incomplete data points across different datasets, and are there any known biases in the data that we need to be aware of?
+The data quality issues were identified through a systematic review and analysis of the datasets.
+
+During this process, I employed various data profiling techniques, including examining summary statistics. 
+Additionally, I analyzed data deeply and looked for inconsistencies or discrepancies.
+This proactive approach allowed me to uncover anomalies, missing values, and inconsistencies that may affect the reliability and accuracy of our analyses. 
+Below are a few examples of my findings:
+
+Signup Source Anomalies: The presence of null values in the 'signUpSource' column for users who signed up before 2017 could hinder our understanding of platform preferences during signup.
+Addressing this could shed light on user behavior trends.
+Missing Last Login Dates: Null values in the 'Last_login_date' column may indicate missed data capture opportunities, impacting our ability to track user engagement effectively. 
+Investigating the reasons behind these gaps could lead to more accurate insights.
+Data Redundancy in Categories and Brand Codes: There appears to be duplication between 'Category' & 'Category_code' and 'name' & 'Brandcode' columns. 
+Consolidating these could streamline data management processes and improve clarity in our analysis.
+Incomplete Transaction Records: Null values in essential columns such as 'purchaseDate', 'barcode', and 'brandCode' raise questions about data completeness and accuracy. 
+Understanding the root cause behind these gaps is crucial for ensuring the reliability of our transaction data.
+To address these issues, I believe a thorough revamp of the data collection and processing would help us understand the missing gaps in the data assets. 
+This should highlight the areas where and how data is being missed coming into the system. I believe this would also resolve the missing relations between the datasets.
+
+As we continue to grow, for our futuristic outlook, seamless database scaling is crucial as user and transaction volumes increase. 
+Continuous monitoring of infrastructure is vital for scalability. 
+To address missing data, I highly recommend refined data capture methods and strategies to fill the missing values. 
+Dynamic data relationships are key for accurate analysis. Ensure application security with continuous monitoring and encryption. 
+Conduct thorough reviews, streamline data management, and enhance completeness and accuracy. 
+Continuous investments in performance and scalability enhancements for future growth will highly benefit the data management.
+
+Thank you for considering these insights. I look forward to discussing these matters further and implementing solutions to enhance our data quality and management.
+
+Best,
+Chaitanya
+
+
+
+
+
+
